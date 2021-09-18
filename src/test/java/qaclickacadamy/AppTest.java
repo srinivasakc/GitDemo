@@ -23,6 +23,7 @@ public class AppTest extends TestCase {
 	public static Test suite() {
 
 		System.out.println("post jira");
+		System.err.println("post jira 2");
 		return new TestSuite(AppTest.class);
 	}
 
@@ -30,6 +31,7 @@ public class AppTest extends TestCase {
 	 * Rigourous Test :-)
 	 */
 	public void testApp() {
+		System.out.println("billing");
 		assertTrue(true);
 	}
 }
